@@ -47,11 +47,6 @@ ALK is a receptor tyrosine kinase driving cancers such as non-small cell lung ca
 - **Poses:** All three sit in the same cleft as 4LO and overlap its central core, consistent with ATP-site binding. None reproduces the full footprint of 4LO.
 - **Limitations:** Poses were compared by eye in PyMOL, with no hydrogen-bond or hinge-contact analysis. Docking used a rigid receptor and low exhaustiveness for speed, and only 500 of 13,291 compounds were screened. Results are predictions with no experimental validation.
 
-## Figures
-![Library descriptors](library_descriptors.png)
-![Docking score distribution](library_scores.png)
-![Redocked pose vs. crystal pose](pose.png)
-![Top pose 1](top_pose_1.png)
 
 ## Repository Contents
 - `ALK_virtual_screening.ipynb`: full workflow (target selection, library prep, validation, screening, pose analysis)
